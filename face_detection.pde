@@ -9,6 +9,7 @@ import org.opencv.core.Scalar;
 import org.opencv.core.CvType;
 import org.opencv.core.Size;
 import org.opencv.objdetect.CascadeClassifier;
+import org.opencv.imgproc.Imgproc;
  
 import java.awt.image.BufferedImage;
 import java.awt.image.WritableRaster;
