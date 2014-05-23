@@ -33,7 +33,7 @@ void setup() {
   bm = new BufferedImage(width, height, BufferedImage.TYPE_4BYTE_ABGR);
   pixCnt = width*height*4;
  
-  faceDetector = new CascadeClassifier(dataPath("haarcascade_frontalface_default.xml"));
+  faceDetector = new CascadeClassifier(dataPath("lbpcascade_frontalface.xml"));
   faceDetections = new MatOfRect();
 }
  
